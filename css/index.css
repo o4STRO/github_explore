@@ -1,3 +1,10 @@
-.backgroundGit {
+body {
+    margin-left: 30%;
+    margin-top: 1%;
+}
 
+.backgroundBody {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right 30% top;
 }
