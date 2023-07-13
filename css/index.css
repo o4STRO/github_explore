@@ -6,9 +6,10 @@ body {
 .backgroundBody {
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right 30% top;
+    background-position: right 40% top;
 }
 
 .themeButton{
-
+    position: relative;
+    left: 40%;
 }
