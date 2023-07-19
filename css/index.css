@@ -1,6 +1,7 @@
 body {
     margin-left: 30%;
     margin-top: 1%;
+    background-color: rgb(241, 239, 239);
 }
 
 .backgroundBody {
@@ -12,4 +13,9 @@ body {
 .themeButton{
     position: relative;
     left: 40%;
+}
+
+#box{
+    padding-top: 20px;
+    margin-left: -10px;
 }

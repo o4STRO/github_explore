@@ -1,0 +1,11 @@
+
+#repoBox { 
+    border: 0px solid;
+    padding: 2%;
+    display: flex;
+    background-color: #ffffff
+}
+
+#descBox {
+    display: block; 
+}
