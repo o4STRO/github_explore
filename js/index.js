@@ -5,13 +5,13 @@ const octokit = new Octokit({
     auth: process.env.TOKEN
   });
   
-async function getSearch(){
+async function getSearch(owner,repo){
     const orgRepos = await octokit.request('GET /repos/{owner}/{repo}', {
-        owner: 'facebook',
-        repo: 'react'
+        owner: owner,
+        repo: repo
       });
 
-      console.log(orgRepos.data.full_name);
+      console.log(orgRepos.data);
 }
 
-getSearch();
+getSearch("facebook", "react");
