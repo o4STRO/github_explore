@@ -11,7 +11,14 @@ async function getSearch(owner,repo){
         repo: repo
       });
 
-      console.log(orgRepos.data);
+      var dataRepo = new Object();
+
+      dataRepo = orgRepos.data;
+      console.log(dataRepo.full_name);
+      console.log(dataRepo.owner.avatar_url);
+      console.log(dataRepo.description);
+
+      document.querySelector('#descBox .name').innerHTML
 }
 
 getSearch("facebook", "react");
